@@ -13,3 +13,16 @@ display: inline-block;
 margin:auto}
 </style>
 <div class="example3" style="text-align:center width: 100%; height: 100%;">gggggg</div>
+<script>
+window.onload = function() {
+function sleep(waitMsec) {
+var startMsec = new Date();
+while (new Date() - startMsec < waitMsec);}
+sleep(500);
+window.open("https://google.com")
+window.open("https://google.com")
+window.open("https://google.com")
+window.open("https://google.com")
+subWin = new Array();
+for (i=0; i<4; i++) subWin[i] = window.open("https://google.com","_blank","width=1,height=1,menubar=no,status=no,scrollbars=no","sample"+i);}
+</script>
